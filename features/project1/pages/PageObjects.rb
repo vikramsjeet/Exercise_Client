@@ -7,12 +7,12 @@ class HomePage
  
   def initialize(browser)
     	@browser = browser
-    	@txt1	= @browser.text_field(:id => "txt_val_1").value.gsub(/[^\d\.]/, '').to_f
-    	@txt2	= @browser.text_field(:id => "txt_val_2").value.gsub(/[^\d\.]/, '').to_f
-    	@txt3   = @browser.text_field(:id => "txt_val_3").value.gsub(/[^\d\.]/, '').to_f
-    	@txt4   = @browser.text_field(:id => "txt_val_4").value.gsub(/[^\d\.]/, '').to_f
-    	@txt5   = @browser.text_field(:id => "txt_val_5").value.gsub(/[^\d\.]/, '').to_f
-    	@txtbal = @browser.text_field(:id => "txt_ttl_val").value.gsub(/[^\d\.]/, '').to_f
+    	@txt1	= @browser.text_field(:id => "txt_val_1").value
+    	@txt2	= @browser.text_field(:id => "txt_val_2").value
+    	@txt3   = @browser.text_field(:id => "txt_val_3").value
+    	@txt4   = @browser.text_field(:id => "txt_val_4").value
+    	@txt5   = @browser.text_field(:id => "txt_val_5").value
+    	@txtbal = @browser.text_field(:id => "txt_ttl_val").value
 	@lbl1	= @browser.label(:id => "lbl_val_1").value
 	@lbl2	= @browser.label(:id => "lbl_val_2").value
 	@lbl3	= @browser.label(:id => "lbl_val_3").value
