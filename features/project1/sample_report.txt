@@ -1,0 +1,7 @@
+Feature: Exercise1 Feature 
+
+Scenario 1: To verify the right number of values appear on the screen
+Given that I am on Exercise Home page
+	Navigated to the homepage of Exercise
+Then number of values labels on screen should be 5
+	correct number of values -5 are present on the screen
