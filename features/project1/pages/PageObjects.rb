@@ -46,8 +46,7 @@ class HomePage
   end
 
   def labelcheck(m)
-	labels = @browser.labels(class:.....)
-	@@tmpcount = 0
+	labels = @browser.labels(class:.....)	
 	labels.each do |label|
 		@val = label.text
 		if @val.include? "Value" then
