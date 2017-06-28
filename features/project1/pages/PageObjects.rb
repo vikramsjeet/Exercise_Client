@@ -71,7 +71,7 @@ class HomePage
   end
 
   def verifyHomePageHeader
-    	@browser.element(:text =&gt; "ExercisePage").wait_until_present
+    	@browser.find_element(:text => "ExercisePage").wait_until_present
   end
  
 end
