@@ -2,7 +2,7 @@ $global_variable = 0
 
 class HomePage
   @@tmpcount = 0
-  attr_accessor :txt1,:txt2,:txt3,:txt4,:txt5, :txtbal, :lbl1, :lbl2, :lbl3, :lbl4. :lbl5, :lblbal
+  attr_accessor :txt1,:txt2,:txt3,:txt4,:txt5, :txtbal, :lbl1, :lbl2, :lbl3, :lbl4, :lbl5, :lblbal
   URLS = { :QA => "https://www.exercise1.com/values" }
  
   def initialize(browser)
